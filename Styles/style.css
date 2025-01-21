@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+/* Font Imported From Google Font */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+
+/* Styles for Navbar */
+
+.navbar{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 140px;
+}
+
+.site-logo:hover{
+    cursor: pointer;
+}
+
+.logo-site-name{
+    display: flex;
+    align-items: center;
+}
+
+.logo-site-name:hover{
+    cursor: pointer;
+}
+
+.site-title{
+    font-size: 2rem;
+    color: black;
+    font-weight:bold;
+    margin-left: 11px;
+}
+
+.nav-list{
+    display: flex;  
+}
+
+.nav-items{
+    list-style: none;
+    width: 387px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: inherit;
+    
+}
+
+.nav-item1{
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: orange;
+    line-height: 30px;
+}
+
+.nav-item2{
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: skyblue;
+    line-height: 30px;
+}
+
+.nav-item3{
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #05D4DF;
+    line-height: 30px;
+}
+
+.nav-item4{
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #5D58EF;
+    line-height: 30px;
+}
+
+.orange-btn{
+    height: 50px;
+    width: 197px;
+    color: #FFFFFF;
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding: 10px;
+    background-color: orange;
+    border: none;
+    border-radius: 12px;
+    line-height: 30px;
+}
+.orange-btn:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+
+
+/* Banner Section Styles */
+
+.empowering-section{
+    justify-items: center
+}
+
+.empowering-container{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    /* width: 1200px;
+    height: 575px; */
+}
+
+.empowering-content{
+    width: 640px;
+    /* height: 331px; */
+}
+
+.empowering-title{
+    font-size: 3.5rem;
+    color: black;
+    font-weight: bold;
+    line-height: 61px;
+}
+
+.empowering-orange{
+    color: orange;
+}
+
+.towards-vision-skyblue{
+    color: #01ACFD;
+}
+
+.empowering-description{
+    color: black;
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.black-btn{
+    height: 50px;
+    width: 197px;
+    color: #FFFFFF;
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding: 10px;
+    background-color: black;
+    border: none;
+    border-radius: 12px;
+    line-height: 30px;
+}
+.black-btn:hover{
+    background-color: orange;
+    cursor: pointer;
+}
+
+.hero-kid-img{
+    justify-content: center;
+    width: auto;
+    margin-left: 85px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+    .nav-list{
+        display: none;
+    }
+
+    .nav-button{
+        display: none;
+    }
+
+    .site-title{
+        display: none;
+    }
+
+    .empowering-content{
+        flex-direction: row;
+    }
+}
