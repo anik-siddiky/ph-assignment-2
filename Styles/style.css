@@ -396,6 +396,8 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-top: 10px;
+    margin-right: 10px;
+    gap: 19px;
 }
 
 .va-btn{
@@ -407,6 +409,16 @@ body {
     margin-top: 80px;
     margin-bottom: 60px;
 }
+
+
+/* Footer Section Design */
+
+.footer{
+    height: 520px;
+    background-color: #01ACFD;
+}
+
+
 
 
 
