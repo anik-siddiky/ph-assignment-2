@@ -418,8 +418,69 @@ body {
     background-color: #01ACFD;
 }
 
+.f-image-title > img{
+    height: 82px;
+    width: 82px;
+}
 
+.f-image-title > h2{
+    font-size: 2.634rem;
+    color: white;
+    width: 206.11px;
+    line-height: 90%;
+}
 
+.f-image-title{
+    display: flex;
+}
+
+.ff-section-description > p{
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: white;
+    width: 400px;
+    line-height: 25px;
+    margin-top: 35px;
+}
+
+.fs-section-container > h3{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 32px;
+}
+
+.fs-section-container > ul > li > a{
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+}
+
+.fs-section-container > ul > li{
+    margin-bottom: 20px;
+    list-style: none;
+}
+
+.ft-section-container > h3{
+    font-size: 1.625rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 32px;
+}
+
+.footer-section{
+    display: flex;
+    width: 1200px;
+    justify-content: space-around;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
 
 
 
