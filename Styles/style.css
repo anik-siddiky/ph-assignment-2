@@ -29,6 +29,10 @@ body {
     cursor: pointer;
 }
 
+.burger-menu{
+    display: none;
+}
+
 .logo-site-name{
     display: flex;
     align-items: center;
@@ -120,8 +124,8 @@ body {
     display: flex;
     align-items: center;
     justify-items: center;
-    /* width: 1200px;
-    height: 575px; */
+    /* width: 1250px; */
+    /* height: 575px; */
 }
 
 .empowering-content{
@@ -176,8 +180,104 @@ body {
 
 }
 
+/* Standard Curriculum Section Styles */
 
+.standard-curriculum-section{
+    background-image: url(../assets/bg.png);
+}
 
+.st-cl-title{
+    text-align: center;
+}
+
+.st-cl-title > h2{
+    font-size: 2.875rem;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+.standard-curriculum-section{
+    margin-bottom: 80px;
+}
+
+.card-container-parent{
+    justify-items: center;
+}
+
+.sc-cards-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    width: 1250px;
+}
+
+.sc-card{
+    height: 476.78px;
+    width: 367.8px;
+    text-align: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.sc-card1{
+    border: 1px solid #DEF5FF;
+    border-radius: 18.86px;
+    background: linear-gradient(180deg, #DEF5FF 0%, #FFFFFF 30%);
+}
+
+.sc-card2{
+    border: 1px solid #FFF4DC;
+    border-radius: 18.86px;
+    background: linear-gradient(180deg, #FFF4DC 0%, #FFFFFF 30%);
+}
+
+.sc-card3{
+    border: 1px solid #EEE1FF;
+    border-radius: 18.86px;
+    background: linear-gradient(180deg, #EEE1FF 0%, #FFFFFF 30%);
+}
+
+.sc-card-image{
+    margin-top: 52px;
+}
+
+.sc-card-title{
+    font-size: 1.532rem;
+    font-weight: bold;
+    line-height: 30px;
+    color: #202020;
+    margin-top: 32px;
+}
+
+.sc-card-description{
+    font-size: 0.943rem;
+    font-weight: 500;
+    line-height: 28.3px;
+    margin-top: 33.50px;
+}
+
+.remo-btn{
+    font-size: 0.943rem;
+    font-weight: bold;
+    line-height: 28.3px;
+    margin-top: 34px;
+}
+
+.remo-btn > a{
+    text-decoration: none;
+}
+
+.sc-card1 > .remo-btn > a{
+    color: #64C8FF;
+}
+
+.sc-card2 > .remo-btn > a{
+    color: #F0AA00;
+}
+
+.sc-card3 > .remo-btn > a{
+    color: #8700FF;
+}
 
 
 
@@ -187,6 +287,13 @@ body {
 
 
 @media screen and (max-width:576px) {
+
+    .navbar{
+        height: 70px;
+        border: 1px solid orange;
+        margin: 0 0;
+    }
+
     .nav-list{
         display: none;
     }
@@ -199,7 +306,54 @@ body {
         display: none;
     }
 
-    .empowering-content{
-        flex-direction: row;
+    .burger-menu{
+        display: block;
+    }  
+
+    .hero-kid-img{
+        width: 300px;
+        height: 395px;
+        margin-left: 16px;
+        margin-right: 16px;
     }
+
+    .empowering-container{
+        flex-wrap: nowrap;
+        flex-direction: column-reverse;
+    }
+
+    .empowering-title{
+        font-size: 2rem;
+        line-height: normal;
+        text-align: center;
+    }
+
+    .empowering-description{
+        font-size: 0.875rem;
+        line-height: normal;
+        width: 357px;
+        height: 54px;
+        text-align: center;
+    }
+
+    .black-btn{
+        height: 42px;
+        width: 131px;
+        color: #FFFFFF;
+        font-size: 16px;
+        font-weight: bold;
+        padding: 24px;
+        background-color: black;
+        border: none;
+        border-radius: 12px;
+        line-height: 30px;
+        text-align: center;
+
+
+    }
+
+    .empowering-content{
+        width: auto;
+    }
+
 }
