@@ -124,13 +124,10 @@ body {
     display: flex;
     align-items: center;
     justify-items: center;
-    /* width: 1250px; */
-    /* height: 575px; */
 }
 
 .empowering-content{
     width: 640px;
-    /* height: 331px; */
 }
 
 .empowering-title{
@@ -184,6 +181,8 @@ body {
 
 .standard-curriculum-section{
     background-image: url(../assets/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .st-cl-title{
@@ -197,9 +196,6 @@ body {
     margin-bottom: 80px;
 }
 
-.standard-curriculum-section{
-    margin-bottom: 80px;
-}
 
 .card-container-parent{
     justify-items: center;
@@ -278,6 +274,155 @@ body {
 .sc-card3 > .remo-btn > a{
     color: #8700FF;
 }
+
+
+/* Two Icons Section Styles */
+
+.two-icons{
+    display: flex;
+}
+
+.fa-solid{
+    background-color: orange;
+}
+
+
+/* Story Section Styles */
+
+.our-story-section {
+    background-image: 
+        linear-gradient(to bottom, rgba(255, 255, 255, 0.3) 0%, rgba(254, 163, 1, 0.3) 100%), 
+        url(../assets/bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.our-story-title{
+    text-align: center;
+}
+
+.our-stories{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-top: 60px;
+    margin-bottom: 80px;
+}
+
+.big-story-card{
+    width: 540px;
+    height: 630px;
+    background-color: white;
+    border-radius: 16px;
+    margin-left: 10px;
+}
+
+.big-card-image > img{
+    border-radius: 16px 16px 0 0;
+}
+
+.big-date-time{
+    font-size: 0.959rem;
+    padding: 11px 20px;
+    font-weight: 500;
+    color: #FFFFFF;
+    width: 175px;
+    background-color: #3CD8E8;
+    border-radius: 48px;
+    margin-left: 38px;
+}
+
+.big-card-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 38.3px;
+    width: 402.49px;
+    margin-left: 38px;
+}
+
+.big-card-description{
+    margin-top: 48px;
+    font-size: 0.959rem;
+    font-weight: 500;
+    line-height: 28.8px;
+    width: 433.06px;
+    color: #666666;
+    margin-left: 38px;
+}
+
+.story-card{
+    background-color: white;
+    width: 290px;
+    height: 300px;
+    border-radius: 16px;
+}
+
+.card-image > img{
+    border-radius: 16px 16px 0 0;
+}
+
+.story-card > .date-time{
+    font-size: 0.959rem;
+    font-weight: 500;
+    color: #FFFFFF;
+    background-color: #95B226;
+    width: 175px;
+    padding: 9px 19px;
+    border-radius: 48px;
+    margin-left: 38px;
+}
+
+.card-title{
+    font-size: 0.959rem;
+    font-weight: bold;
+    color: black;
+    line-height: 28.8px;
+    margin-left: 38px;
+}
+
+.five-card-parent{
+    justify-items: center;
+}
+
+.story-card-container{
+    width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.four-story-card{
+    width: 600px;
+    height: 620px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 10px;
+}
+
+.va-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.view-all-btn{
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
