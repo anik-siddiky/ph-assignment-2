@@ -489,6 +489,10 @@ body {
     margin-bottom: 32px;
 }
 
+.f-image-title > img, h2:hover{
+    cursor: pointer;
+}
+
 .footer-section{
     display: flex;
     width: 1200px;
