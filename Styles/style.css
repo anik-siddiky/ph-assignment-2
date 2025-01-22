@@ -177,6 +177,21 @@ body {
 
 }
 
+/* Marquee Tag Trying Section */
+
+.marquee-tag-section{
+    display: flex;
+    justify-content: center;
+}
+
+.marquee-tag{
+    color: #01ACFD;
+    font-size: 20px;
+    width: 1194px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 /* Standard Curriculum Section Styles */
 
 .standard-curriculum-section{
@@ -391,6 +406,19 @@ body {
     top: -30px;
 }
 
+.story-card > .date-time2{
+    font-size: 0.959rem;
+    font-weight: 500;
+    color: #FFFFFF;
+    background-color: #5D58F0;
+    width: 175px;
+    padding: 9px 19px;
+    border-radius: 48px;
+    margin-left: 38px;
+    position: relative;
+    top: -30px;
+}
+
 .card-title{
     font-size: 0.959rem;
     font-weight: bold;
@@ -545,7 +573,15 @@ body {
     .burger-menu{
         visibility: visible;
         margin-right: 16px;
-    }  
+    }
+    
+    .marquee-tag{
+        color: #01ACFD;
+        font-size: 16px;
+        width: 1194px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
 
 
     /* Hero Kid Section Styles */
@@ -690,6 +726,19 @@ body {
         font-weight: 500;
         color: #FFFFFF;
         background-color: #95B226;
+        width: 118px;
+        padding: 9px 19px;
+        border-radius: 48px;
+        margin-left: 20px;
+        position: relative;
+        top: -30px;
+    }
+
+    .story-card > .date-time2{
+        font-size: 0.571rem;
+        font-weight: 500;
+        color: #FFFFFF;
+        background-color: #5D58F0;
         width: 118px;
         padding: 9px 19px;
         border-radius: 48px;
