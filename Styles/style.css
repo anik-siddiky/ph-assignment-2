@@ -490,7 +490,9 @@ body {
 
 
 
-
+.hide{
+    display: none;
+}
 
 
 
@@ -510,6 +512,10 @@ body {
 
 
 @media screen and (max-width:576px) {
+
+
+    /* Navbar Styles */
+
 
     .navbar{
         height: 70px;
@@ -532,6 +538,10 @@ body {
     .burger-menu{
         display: block;
     }  
+
+
+    /* Hero Kid Section Styles */
+
 
     .hero-kid-img{
         width: 300px;
@@ -561,22 +571,162 @@ body {
 
     .black-btn{
         height: 42px;
-        width: 131px;
+        width: 150px;
         color: #FFFFFF;
         font-size: 16px;
         font-weight: bold;
-        padding: 24px;
+        padding: 6px 24px;
         background-color: black;
         border: none;
         border-radius: 12px;
         line-height: 30px;
         text-align: center;
+        justify-content: center;
+    }
 
-
+    .black-button-container{
+        display: flex;
+        justify-content: center;
     }
 
     .empowering-content{
         width: auto;
     }
+
+
+    /* Standard Curriculum Section Styles */
+
+    .st-cl-title > h2{
+        font-size: 1.625rem;
+        font-weight: bold;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    .sc-card{
+        height: 321.28px;
+        width: 357px;
+        justify-items: center;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+
+    .sc-card-image{
+        height: 92px;
+        width: 92px;
+        margin-top: 20px;
+    }
+
+    .sc-card-title{
+        font-size: 1rem;
+        font-weight: bold;
+        line-height: 20px;
+        color: #202020;
+        margin-top: 10px;
+    }
+
+    .sc-card-description{
+        font-size: 0.639rem;
+        font-weight: 500;
+        line-height: 19px;
+        margin-top: 22px;
+        color: #808080;
+        width: 193.81px;
+        justify-content: center;
+    }
+
+    .sc-cards-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 13px;
+        justify-items: center;
+        width: 357px;
+    }
+
+
+    /* Our Story Section Styles */
+
+    .our-stories{
+        font-size: 1.625rem;
+        font-weight: bold;
+        line-height: 57.5px;
+        margin-top: 40px;
+        margin-bottom: 20px;
+    }
+
+    .big-story-card{
+        display: none;
+    }
+
+    .card-image > img{
+        border-radius: 10px 10px 0 0;
+        width: 173.27px;
+        height: 105.39px;
+    }
+
+    .story-card{
+        background-color: #FFFFFF;
+        width: 173.09px;
+        height: 180px;
+        border-radius: 10px;
+    }
+
+    .story-card > .date-time{
+        font-size: 0.571rem;
+        font-weight: 500;
+        color: #FFFFFF;
+        background-color: #95B226;
+        width: 118px;
+        padding: 9px 19px;
+        border-radius: 48px;
+        margin-left: 20px;
+        position: relative;
+        top: -30px;
+    }
+
+    .card-title{
+        font-size: 0.571rem;
+        font-weight: bold;
+        color: black;
+        line-height: 17.1px;
+        margin-left: 22px;
+        margin-top: -15px;
+    }
+
+    .four-story-card{
+        width: 358px;
+        height: 380px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 10px;
+        margin-right: 10px;
+        gap: 12px;
+    }
+
+    .story-card-container{
+        width: 358px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .view-all-btn{
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
+
+    /* Footer Section Styles */
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
