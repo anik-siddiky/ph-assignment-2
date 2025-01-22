@@ -30,7 +30,7 @@ body {
 }
 
 .burger-menu{
-    display: none;
+    visibility: hidden;
 }
 
 .logo-site-name{
@@ -505,6 +505,11 @@ body {
         height: 46px;
         margin-left: 16px;
     }
+
+    .logo-site-name{
+        display: flex;
+        justify-content: space-between;
+    }
     
     .nav-list{
         display: none;
@@ -519,7 +524,8 @@ body {
     }
 
     .burger-menu{
-        display: block;
+        visibility: visible;
+        margin-right: 16px;
     }  
 
 
