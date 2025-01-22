@@ -489,40 +489,23 @@ body {
 
 
 
-
-.hide{
-    display: none;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media screen and (max-width:576px) {
-
 
     /* Navbar Styles */
 
-
     .navbar{
+        flex-direction: column;
         height: 70px;
         border: 1px solid orange;
         margin: 0 0;
     }
 
+    .site-logo{
+        width: 46px;
+        height: 46px;
+        margin-left: 16px;
+    }
+    
     .nav-list{
         display: none;
     }
@@ -716,17 +699,87 @@ body {
 
     /* Footer Section Styles */
 
+    .f-image-title > img{
+        height: 69px;
+        width: 69px;
+    }
+
+    .f-image-title > h2{
+        font-size: 2.233rem;
+        color: white;
+        width: 172px;
+        line-height: 90%;
+    }
+
+    .ff-section-description > p{
+        font-size: 1rem;
+        font-weight: 400;
+        color: white;
+        width: 357px;
+        line-height: 20px;
+        margin-top: 22px;
+        margin-bottom: 32px;
+    }
+
+    .fs-section-container > h3{
+        font-size: 1.272rem;
+        font-weight: bold;
+        color: white;
+        margin-bottom: 27px;
+    }
+
+    .fs-section-container > ul > li > a{
+        font-size: 1.06rem;
+        font-weight: 500;
+        color: white;
+        text-decoration: none;
+    }
+    
+    .fs-section-container > ul > li{
+        margin-bottom: 17px;
+        list-style: none;
+    }
+
+    .fs-section-container > ul{
+        margin-bottom: 32px;
+    }
+
+    .ft-section-container > h3{
+        font-size: 1.377rem;
+        font-weight: bold;
+        color: white;
+        margin-bottom: 37px;
+    }
+
+    .sm-icons > a > img{
+        width: 33.91px;
+        height: 33.91px;
+    }
+
+    .ff-section-container{
+        margin-left: 20px;
+    }
+
+    .fs-section-container{
+        margin-left: 20px;
+    }
+
+    .ft-section-container{
+        margin-left: 20px;
+    }
 
 
+    .footer{
+        height: 700px;
+        background-color: #01ACFD;
+    }
 
-
-
-
-
-
-
-
-
+    .footer-section{
+        display: flex;
+        flex-direction: column;
+        /* width: 1200px; */
+        justify-content: space-around;
+}
 
 
 }
